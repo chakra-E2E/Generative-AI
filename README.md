@@ -1,49 +1,78 @@
-Level 1 
-# Generative AI
+# Level 1 – Generative AI
+
 ### Job Application Process
 
-1. I found the job posting myself.
-2. I read the JD myself and decided it was worth applying.
-3. I copy-pasted both the resume and the JD into ChatGPT.
-4. I wrote the prompt - with instructions like **"don't invent experience."**
-5. I'll have to read the output myself and judge if it's good.
-6. Then I'll open a new chat and say **"now write me a cover letter for this role."**
-7. Then another prompt - **"give me likely interview questions."**
-8. Then review all of it, fix what's off, and repeat for the next job.
+1. Find the job posting myself.
+2. Read the JD and decide whether to apply.
+3. Copy my **resume + JD** into ChatGPT.
+4. Give ChatGPT a prompt, e.g. **“Do not invent any experience.”**
+5. Review and correct the output myself.
+6. Start a new chat: **“Write a cover letter for this role.”**
+7. Ask: **“Give me likely interview questions.”**
+8. Review everything and repeat for the next job.
 
-Level 2
-# Generative AI with tools (MCP)
+**Key point:** I have to do most of the work and use multiple prompts.
 
-1. **Prompt**: Search linkedin for "AI Engineer" jobs in canada posted this week.
-2.  **Prompt**: For top 3 results, read each job description and tell me which one best matches for
-3.  a candidate with 6 years of devops engineering expreience and kubernetes expreiance
-4.  Choose the websearch tool in chatgpt
-5.  You till need provide input and ask to use the tool and you get the output
-6.  Additional prompt may be neaded to impore the response or personalize the response
+---
 
-Level 3
-# AI agent
-1. **Prompt**: Read my resume and the job description in this folder and process this job application
-2. Select composer-25-fast (agent mode)
-3. And we create rules
-4. What it does?
-    - Job analysis
-    - Match report score
-    - Tailored resume
-    - cover letter
-    - self revise
-    - interview rep
-    - jd.md
-    - my-resume.md
-5. All work is done by single agent with single line of prompt (Generative AI takes lots of prompts)
+# Level 2 – Generative AI + Tools (MCP)
 
-Level 4
-# Multi agent
-1. Dedicated agent for each sub-task (it can scale)
-2. Take the task and make it small chunks and give each task to one agent
+1. Give a prompt: **“Search LinkedIn for AI Engineer jobs in Canada posted this week.”**
+2. Ask AI to read the top 3 job descriptions.
+3. Ask which jobs match my experience.
+4. AI uses a **web search tool** to find the jobs.
+5. I still need to provide instructions and ask AI to use the tool.
+6. I may need additional prompts to improve or personalize the results.
 
-Level 5
-# Autonamy is the vision
-1. By the time you wake up, the agent does the job application, creates interview nodes and you're ready to attend the interview.
+**Key point:** AI can **use tools**, but I still guide the process.
 
-![AI Levels ](./images/AI-type.png)
+---
+
+# Level 3 – AI Agent
+
+**Prompt:**
+
+> “Read my resume and the job description in this folder and process this job application.”
+
+The agent follows predefined rules and does:
+
+* Job analysis
+* Match report
+* Tailored resume
+* Cover letter
+* Self-review and revision
+* Interview preparation
+* Creates `jd.md`
+* Creates `my-resume.md`
+
+**Key point:** One agent can handle the **whole workflow with one prompt**.
+
+---
+
+# Level 4 – Multi-Agent
+
+Instead of one agent doing everything:
+
+* Create a **dedicated agent for each task**.
+* Break the big task into smaller tasks.
+* Each agent handles one specific task.
+
+Example:
+
+**Job Agent → Resume Agent → Cover Letter Agent → Interview Agent**
+
+**Key point:** Multiple agents can work together and the process can scale.
+
+---
+
+# Level 5 – Autonomy
+
+**The vision:**
+
+> Go to sleep → AI finds suitable jobs → applies → prepares interview questions → creates interview notes → you wake up ready for the interview.
+
+**Key point:** The AI moves from **assisting you → doing the work for you**.
+
+![AI Levels](./images/AI-type.png)
+
+
