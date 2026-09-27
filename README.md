@@ -73,6 +73,10 @@ Example:
 
 **Key point:** The AI moves from **assisting you → doing the work for you**.
 
+### Model selection
+![Model(./modelselection.png)
+
+
 ![AI Levels](./AI-types.png)
 
 
