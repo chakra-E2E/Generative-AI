@@ -73,6 +73,6 @@ Example:
 
 **Key point:** The AI moves from **assisting you → doing the work for you**.
 
-![AI Levels](AI-type.png)
+![AI Levels](../AI-type.png)
 
 
